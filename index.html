@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="div-header-division-imagen">
+            <img src="carro.png" alt="imagen de logo" class="img-logo"> 
+            <h2>FACTURA SOBRE RUEDAS</h2>
+        </div>
+        <div class="div-header-division-texto">
+            <p>Inicio</p>
+            <p>Registrarse</p>
+            <p>Formulario</p>
+        </div>
+    </header>
+
+    <fieldset>
+        <legend><img src="https://static.vecteezy.com/system/resources/previews/005/228/939/non_2x/avatar-man-face-silhouette-user-sign-person-profile-picture-male-icon-black-color-illustration-flat-style-image-vector.jpg" alt="imagen de usuario" class="img-perfil"></legend>
+        <form action="validacion.php" method="post">
+            <h1>INICIAR SESION</h1>
+            <label>Usuario</label>
+            <input type="text" placeholder="Ingrese su nombre" class="input-usuario" name="usuario" required>
+            <label>Contraseña</label>
+            <input type="password" placeholder="Ingrese su contraseña" class="input-contraseña" name="contraseña" required>
+            <input type="submit" class="input-submit">
+        </form>
+    </fieldset>
+</body>
+</html>
+
